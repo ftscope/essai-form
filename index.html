@@ -882,8 +882,8 @@ resultDetails = 'Utilisation de vos droits CPF avec possibilité d\'abondement p
 dispositif = 'CPF (Compte Personnel de Formation)';
 if (are === 'Oui' && formation_duree === '> 40 heures') {
 montant = 'AREF possible si formation validée avec votre conseiller France Travail';
-informations.push('Vos droits CPF sont utilisés en premier');
-informations.push('France Travail peut abonder si le CPF est insuffisant');
+informations.push('Vos droits CPF sont utilisés en priorité');
+informations.push('Vous pouvez demander un abondement CPF via l’organisme de formation.');
 informations.push('ARE maintenue avec durée ≥ 40h');
 } else {
 montant = 'Utilisation de vos droits CPF uniquement';
@@ -1028,6 +1028,7 @@ resultsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
 </body>
 </html>
+
 
 
 
